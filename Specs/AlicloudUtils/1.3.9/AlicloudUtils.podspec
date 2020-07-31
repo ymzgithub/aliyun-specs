@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.frameworks   = [ "CoreTelephony", "SystemConfiguration" ]
   s.libraries    = 'resolv'
   s.xcconfig     = {	'OTHER_LDFLAGS' => '-ObjC'}
-  s.dependency   "AlicloudUTDID"
+  s.dependency   "UTDID"
 end
